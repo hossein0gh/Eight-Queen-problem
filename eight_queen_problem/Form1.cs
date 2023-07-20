@@ -32,7 +32,8 @@ namespace Eight_queen_problem
 
         public void btn_solve_Click(object sender, EventArgs e)
         {
-            int n = 8;
+            int n ;
+            n= 8;
             output.ColumnCount = n;
             output.RowCount = n;
             #region  chess board style
